@@ -6428,26 +6428,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yuall\\.nuget\\packages\\": {}
+    "/Users/allenyu/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\mvcLearning\\mvcLearning\\mvcLearning.csproj",
+      "projectUniqueName": "/Users/allenyu/Documents/Projects/mvcLearning/mvcLearning/mvcLearning.csproj",
       "projectName": "mvcLearning",
-      "projectPath": "E:\\mvcLearning\\mvcLearning\\mvcLearning.csproj",
-      "packagesPath": "C:\\Users\\yuall\\.nuget\\packages\\",
-      "outputPath": "E:\\mvcLearning\\mvcLearning\\obj\\",
+      "projectPath": "/Users/allenyu/Documents/Projects/mvcLearning/mvcLearning/mvcLearning.csproj",
+      "packagesPath": "/Users/allenyu/.nuget/packages/",
+      "outputPath": "/Users/allenyu/Documents/Projects/mvcLearning/mvcLearning/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\yuall\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/allenyu/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6462,7 +6460,9 @@
         ]
       },
       "restoreAuditProperties": {
-        "enableAudit": "default"
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -6501,7 +6501,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/allenyu/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

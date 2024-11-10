@@ -14,9 +14,6 @@ namespace mvcLearning.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.Message = "Customer List";
-            ViewBag.CustomerCount = customers.Count;
-            ViewBag.CustomerList = customers;
             return View();
         }
 
